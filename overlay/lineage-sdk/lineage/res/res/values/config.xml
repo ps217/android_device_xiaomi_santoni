@@ -69,4 +69,7 @@
          that support pulsating and RGB control would set this config
          to 75. -->
     <integer name="config_deviceLightCapabilities">79</integer>
+    
+    <!-- Whether to cleanup fingerprints upon connection to the daemon and when user switches -->
+    <bool name="config_cleanupUnusedFingerprints">false</bool>
 </resources>

@@ -408,4 +408,7 @@
          and one pSIM) -->
     <integer name="config_num_physical_slots">2</integer>
 
+	
+    <!-- Whether to cleanup fingerprints upon connection to the daemon and when user switches -->
+    <bool name="config_cleanupUnusedFingerprints">false</bool>
 </resources>
