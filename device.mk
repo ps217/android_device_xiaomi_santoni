@@ -68,10 +68,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml
 
 
-# Ambient Display
-PRODUCT_PACKAGES += \
-    XiaomiDoze
-
 # Audio
 PRODUCT_PACKAGES += \
     audiod \
@@ -167,6 +163,10 @@ PRODUCT_PACKAGES += \
 
 # Charger
 include $(LOCAL_PATH)/rootdir/charger/charger.mk
+
+# Device-specific settings
+PRODUCT_PACKAGES += \
+    XiaomiParts
 
 # Display
 PRODUCT_PACKAGES += \
