@@ -207,6 +207,8 @@ BLOCK_BASED_OTA := true
 # Peripheral manager
 TARGET_PER_MGR_ENABLED := true
 
+TARGET_HAS_NO_WLAN_STATS := true
+
 # Power
 TARGET_PROVIDES_POWERHAL := true
 
